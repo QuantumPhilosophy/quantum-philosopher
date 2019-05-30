@@ -1,0 +1,32 @@
+{
+  "name": "quantum-philosopher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "lint": "standard",
+    "fix": "standard --fix",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumPhilosophy/quantum-philosopher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuantumPhilosophy/quantum-philosopher/issues"
+  },
+  "homepage": "https://github.com/QuantumPhilosophy/quantum-philosopher#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "foundation-sites": "^6.5.3"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
