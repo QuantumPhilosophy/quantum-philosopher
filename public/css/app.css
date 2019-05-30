@@ -1,0 +1,308 @@
+body {
+    background-color: black;
+    color: darkgray;
+}
+
+/*Foundation class overrides*/
+.top-bar {
+    background-color: black;
+    color: darkgray;
+}
+
+.top-bar ul {
+    background-color: black;
+    color: darkgray;
+}
+
+.title-bar {
+    background-color: black;
+    color: darkgray;
+}
+
+.callout {
+    background: #2c3840 url("../imgs/universe-703522.jpg") no-repeat center;
+    background-size: cover;
+    color: darkgray;
+    text-shadow: 2px 2px 5px black;
+}
+
+.thumbnail {
+    border: 0;
+}
+/*Foundation class overrides*/
+
+/*marketing-site-three-up*/
+.marketing-site-three-up {
+    text-align: center;
+    padding: 2rem 0;
+    color: darkgray;
+}
+
+.marketing-site-three-up .row {
+    max-width: 900px;
+}
+
+.marketing-site-three-up .columns {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+    .marketing-site-three-up .columns {
+        margin-bottom: 0;
+    }
+}
+
+.marketing-site-three-up .fas {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1779ba;
+}
+
+.marketing-site-three-up .fab {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1779ba;
+}
+
+.marketing-site-three-up-headline {
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+/*marketing-site-three-up*/
+
+/*card-user-profile*/
+.card-user-profile {
+    position: relative;
+    z-index: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: 0;
+    border-radius: 0;
+    background: #2c3840;
+    box-shadow: none;
+    overflow: hidden;
+    color: darkgray;
+}
+
+.card-user-profile > :last-child {
+    margin-bottom: 0;
+}
+
+.card-user-profile:hover .card-user-profile-img {
+    opacity: 1;
+}
+
+.card-user-profile-content {
+    position: relative;
+}
+
+.card-user-profile-content::before {
+    position: absolute;
+    content: '';
+    top: -3.4375rem;
+    left: -1.875rem;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3.4375rem 0 0 31.25rem;
+    z-index: 0;
+    border-color: transparent transparent transparent #2c3840;
+}
+
+.card-user-profile-actions {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding: 1rem;
+    background: #2c3840;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.card-user-profile-actions > :last-child {
+    margin-bottom: 0;
+}
+
+.card-user-profile-img {
+    max-width: 100%;
+    opacity: 0.85;
+    transition: all 0.25s ease;
+}
+
+.card-user-profile-avatar {
+    position: absolute;
+    bottom: 100%;
+    left: 1rem;
+    z-index: 2;
+    max-width: 5.625rem;
+}
+
+.card-user-profile-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-user-profile-name {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-user-profile-button {
+    margin-bottom: 0;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+}
+
+.card-user-profile-button + .card-user-profile-button {
+    margin-left: 1rem;
+}
+
+.card-user-profile-info {
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+/*card-user-profile*/
+
+/*marketing-site-features*/
+.marketing-site-features {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.marketing-site-features .fab {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1779ba;
+}
+
+.marketing-site-features .fas {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1779ba;
+}
+
+.marketing-site-features .marketing-site-features-title {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+    .marketing-site-features {
+        text-align: left;
+    }
+}
+
+.marketing-site-features-headline {
+    text-align: center;
+    font-size: 24px;
+}
+
+.marketing-site-features-subheadline {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+/*marketing-site-features*/
+
+/*marketing-site-footer*/
+.marketing-site-footer {
+    background: #2c3840;
+    color: darkgray;
+    padding: 2rem 0 0;
+}
+
+.marketing-site-footer .marketing-site-footer-menu-social a {
+    font-size: 1.5rem;
+    color: #1779ba;
+}
+
+.marketing-site-footer .column-block {
+    margin-bottom: 30px;
+}
+
+.marketing-site-footer > .row {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .marketing-site-footer .columns {
+        margin-bottom: 2rem;
+    }
+}
+
+.marketing-site-footer-name {
+    color: darkgray;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.marketing-site-footer-title {
+    color: darkgray;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.marketing-site-footer-block {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.marketing-site-footer-block .fab {
+    font-size: 1.5rem;
+    color: #1779ba;
+}
+
+.marketing-site-footer-block .fas {
+    font-size: 1.5rem;
+    color: #1779ba;
+}
+
+.marketing-site-footer-block p {
+    margin-left: 1rem;
+    line-height: 1.125rem;
+}
+
+.marketing-site-footer-bottom {
+    background: #020304;
+    padding: 1rem 0;
+}
+
+.marketing-site-footer-bottom p,
+.marketing-site-footer-bottom .menu {
+    margin-bottom: 0;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
+    color: #8aa0ae;
+}
+
+@media screen and (max-width: 63.9375em) {
+    .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 63.9375em) {
+    .marketing-site-footer-bottom {
+        text-align: center;
+    }
+}
+/*marketing-site-footer*/
