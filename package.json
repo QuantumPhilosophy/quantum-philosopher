@@ -23,7 +23,7 @@
   "homepage": "https://github.com/QuantumPhilosophy/quantum-philosopher#readme",
   "dependencies": {
     "express": "^4.17.0",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "foundation-sites": "^6.5.3"
   },
   "devDependencies": {
